@@ -1,0 +1,21 @@
+
+#map {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+.resizable-handle.resizable-s {
+  background-color: steelblue;
+  left: 0;
+  right: 0;
+  height: 15px;
+  text-align: center;
+  color: white;
+}
+
+.route {
+  padding: 6px 0;
+  margin: 3px 0px;
+  background-color: #efefef;
+}

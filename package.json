@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "component": "*",
+    "jshint": "*",
+    "js-beautify": "*",
+    "mocha": "*",
+    "serve": "*"
+  }
+}
