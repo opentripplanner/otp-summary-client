@@ -15,7 +15,17 @@
 }
 
 .route {
-  padding: 6px 0;
+  padding: 8px 0;
   margin: 3px 0px;
   background-color: #efefef;
+}
+
+.segment {
+  display: block;
+  background-color: steelblue;
+  height: 100%;
+  float: left;
+  padding: 10px;
+  border-right: 2px solid #efefef;
+  color: white;
 }
