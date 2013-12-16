@@ -20,12 +20,19 @@
   background-color: #efefef;
 }
 
+.summary {
+
+}
+
 .segment {
   display: block;
-  background-color: steelblue;
+  background-color: #999;
   height: 100%;
   float: left;
   padding: 10px;
   border-right: 2px solid #efefef;
   color: white;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

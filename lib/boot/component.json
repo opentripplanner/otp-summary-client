@@ -1,6 +1,7 @@
 {
   "name": "boot",
   "dependencies": {
+    "component/color-parser": "*",
     "ianstormtaylor/to-title-case": "*",
     "learnboost/jsonp": "*",
     "mbostock/d3": "*",
