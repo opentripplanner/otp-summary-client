@@ -7,7 +7,6 @@
     "mbostock/d3": "*",
     "square/crossfilter": "*",
     "ui-component/resizable": "*",
-    "visionmedia/ministache": "*",
     "visionmedia/superagent": "*"
   },
   "scripts": [
