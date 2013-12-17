@@ -1,4 +1,8 @@
 
+body {
+  padding-bottom: 100px;
+}
+
 #map {
   width: 100%;
   height: 500px;
@@ -15,24 +19,68 @@
 }
 
 .route {
-  padding: 8px 0;
-  margin: 3px 0px;
-  background-color: #efefef;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid #ccc;
+  color: #333;
+  display: block;
 }
 
-.summary {
+.route:hover,
+.route:focus {
+  text-decoration: none;
+  color: #333;
+}
 
+.summary, .times {
+  padding: 10px;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.show-more {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .segment {
   display: block;
-  background-color: #999;
+  background-color: #ccc;
   height: 100%;
   float: left;
-  padding: 10px;
-  border-right: 2px solid #efefef;
+  padding: 10px 0 10px 10px;
+  border-right: 2px solid #ccc;
   color: white;
   overflow-x: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+}
+
+.segment:focus,
+.segment:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.segment:last-of-type {
+  border-right: none;
+}
+
+.details {
+  background-color: #fff;
+}
+
+.details pre {
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #ccc;
+  margin-bottom: 0;
+}
+
+.details hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-color: #ccc;
+  border-width: 1px;
 }
