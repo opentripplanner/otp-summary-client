@@ -41,18 +41,22 @@ body {
   text-overflow: ellipsis;
 }
 
-.show-more {
-  padding-top: 3px;
-  padding-bottom: 3px;
+.summary, .times, .segments {
+  cursor: pointer;
+}
+
+.segments {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: -5px;
 }
 
 .segment {
-  display: block;
+  display: inline-block;
   background-color: #ccc;
   height: 100%;
-  float: left;
-  padding: 10px 0 10px 10px;
-  border-right: 2px solid #ccc;
+  padding: 10px 0 10px 6px;
+  border-right: 1px solid #fff;
   color: white;
   overflow-x: hidden;
 }
@@ -69,12 +73,14 @@ body {
 
 .details {
   background-color: #fff;
+  cursor: normal;
 }
 
 .details pre {
   border: none;
   border-radius: 0;
   border-top: 1px solid #ccc;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 

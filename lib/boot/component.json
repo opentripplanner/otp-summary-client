@@ -2,7 +2,7 @@
   "name": "boot",
   "dependencies": {
     "component/color-parser": "*",
-    "ianstormtaylor/to-title-case": "*",
+    "ianstormtaylor/to-capital-case": "*",
     "learnboost/jsonp": "*",
     "mbostock/d3": "*",
     "square/crossfilter": "*",
