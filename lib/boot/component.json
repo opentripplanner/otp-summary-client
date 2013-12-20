@@ -10,7 +10,6 @@
     "visionmedia/superagent": "*"
   },
   "scripts": [
-    "config.js",
     "index.js",
     "table.js"
   ],
