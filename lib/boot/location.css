@@ -1,0 +1,10 @@
+
+.location-form {
+  margin: 40px 0;
+}
+
+#map {
+  min-height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

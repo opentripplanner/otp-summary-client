@@ -2,18 +2,25 @@
   "name": "boot",
   "dependencies": {
     "component/color-parser": "*",
+    "component/emitter": "*",
+    "component/querystring": "*",
+    "component/scroll-to": "*",
     "ianstormtaylor/to-capital-case": "*",
     "learnboost/jsonp": "*",
     "mbostock/d3": "*",
+    "mobqueue/component-spinner": "*",
     "square/crossfilter": "*",
     "ui-component/resizable": "*",
     "visionmedia/superagent": "*"
   },
   "scripts": [
+    "geocode.js",
     "index.js",
+    "location.js",
     "table.js"
   ],
   "styles": [
+    "location.css",
     "style.css"
   ]
 }
