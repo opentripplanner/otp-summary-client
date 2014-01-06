@@ -47,24 +47,12 @@
       </div>
     </div>
 
-    <div class="container" id="results">
+    <div class="container" id="results" style="display:none;">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <h3>Results <a class="btn btn-default pull-right" type="button" href="javascript:animateTo('location')">Change Location <i class="fa fa-location-arrow"></i></button></a></h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h4 class="results-heading"><span class="from-display-value"></span> <i class="fa fa-long-arrow-right"></i> <span class="to-display-value"></span>
+          <a class="btn btn-default pull-right" type="button" href="javascript:animateTo('location')">Change Location <i class="fa fa-location-arrow"></i></a></h4>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-          <h4 class="from-display-value"></h4>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:right;">
-          <h4 class="to-display-value"></h4>
-        </div>
-        <!-- <div class="col-lg-12 col-md-12 col-sm-12">
-          <h4><span class="routes-count"></span> Routes
-          <a href="javascript:sortBy('average')" class="btn btn-default">Avg. Trip Length (Min.)</a>
-          <a href="javascript:sortBy('max')" class="btn btn-default">Max Trip Length (Min.)</a>
-          <a href="javascript:sortBy('segments')" class="btn btn-default">Segments</a>
-          </h4>
-        </div> -->
       </div>
       <div id="canvas">insert transitive display here...</div>
       <div class="data"></div>
