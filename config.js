@@ -2,6 +2,6 @@ window.CONFIG = {
   GEOCODER_API_URL: 'http://cherriots.dev.conveyal.com/simplecoder',
   OTP_API_URL: 'http://localhost:8080/otp-rest-servlet/profile',
   MAPBOX_KEY: 'conveyal.gepida3i',
-  FROM_LL: [38.90198809660059, -77.04780578613281],
-  TO_LL: [38.87900680425525, -77.01141357421875]
+  FROM_LL: [38.890519,-77.086252],
+  TO_LL: [38.896813,-77.006262]
 };
