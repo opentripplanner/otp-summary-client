@@ -11,6 +11,7 @@
     "mobqueue/component-spinner": "*",
     "square/crossfilter": "*",
     "ui-component/resizable": "*",
+    "visionmedia/debug": "*",
     "visionmedia/superagent": "*"
   },
   "scripts": [
