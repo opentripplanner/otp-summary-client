@@ -20,6 +20,14 @@ body {
   line-height: 34px;
 }
 
+.route-heading > div:first-of-type {
+  padding-left: 25px;
+}
+
+.route-heading > div {
+  font-size: 1.2em;
+}
+
 .route {
   margin-top: 3px;
   margin-bottom: 3px;
