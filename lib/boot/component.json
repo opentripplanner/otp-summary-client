@@ -5,6 +5,7 @@
     "component/emitter": "*",
     "component/querystring": "*",
     "component/scroll-to": "*",
+    "conveyal/transitive.js": "*",
     "ianstormtaylor/to-capital-case": "*",
     "learnboost/jsonp": "*",
     "mbostock/d3": "*",

@@ -18,3 +18,4 @@ npm-debug.log
 bower_components
 build
 components
+config.js
