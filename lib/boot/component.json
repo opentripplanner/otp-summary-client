@@ -19,6 +19,7 @@
     "geocode.js",
     "index.js",
     "location.js",
+    "styles.js",
     "table.js"
   ],
   "styles": [
