@@ -6,7 +6,6 @@ body {
 #canvas {
   height: 400px;
   width: 100%;
-  text-align: center;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 20px 0 40px;
@@ -14,8 +13,8 @@ body {
 
 .canvas {
   height: 250px;
-  width: 100%;
-  margin: 10px 0;
+  width: 1000px;
+  margin-bottom: 10px;
 }
 
 .results-heading {
