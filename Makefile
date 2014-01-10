@@ -6,6 +6,9 @@ JSON = $(shell find lib -name '*.json')
 
 PORT = 3000
 
+print:
+	@cat Makefile
+
 build: components $(CSS) $(HTML) $(JS) $(JSON)
 	@$(MAKE) lint
 	@./node_modules/.bin/component build --dev --verbose
@@ -16,7 +19,6 @@ beautify:
 clean:
 	@rm -rf build
 	@rm -rf components
-	@rm -rf node_modules
 
 components: component.json $(JSON)
 	@./node_modules/.bin/component install --dev --verbose
