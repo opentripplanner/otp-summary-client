@@ -8,7 +8,6 @@ PORT = 3000
 
 build: components $(CSS) $(HTML) $(JS) $(JSON)
 	@$(MAKE) lint
-	@$(MAKE) test
 	@./node_modules/.bin/component build --dev --verbose
 
 beautify:
