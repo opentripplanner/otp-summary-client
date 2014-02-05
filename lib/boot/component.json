@@ -5,7 +5,6 @@
     "component/emitter": "*",
     "component/querystring": "*",
     "component/scroll-to": "*",
-    "conveyal/transitive.js": "*",
     "ianstormtaylor/to-capital-case": "*",
     "learnboost/jsonp": "*",
     "mbostock/d3": "*",
@@ -13,14 +12,18 @@
     "square/crossfilter": "*",
     "ui-component/resizable": "*",
     "visionmedia/debug": "*",
-    "visionmedia/superagent": "*"
+    "visionmedia/superagent": "*",
+    "conveyal/transitive.js": "*",
+    "conveyal/otpprofiler.js": "*",
+    "component/each": "*"
   },
   "scripts": [
     "geocode.js",
     "index.js",
     "location.js",
     "styles.js",
-    "table.js"
+    "table.js",
+    "computed.js"
   ],
   "styles": [
     "location.css",
