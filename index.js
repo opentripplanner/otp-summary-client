@@ -5,8 +5,8 @@
 var crossfilter = require('crossfilter').crossfilter;
 var config = window.CONFIG;
 var d3 = require('d3');
-var loc = require('./location');
-var Table = require('./table');
+var loc = require('./lib/location');
+var Table = require('./lib/table');
 
 /**
  * Max options

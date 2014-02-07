@@ -1,9 +1,0 @@
-{
-  "name": "manila-od",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "*",
-    "fontawesome": "*",
-    "jquery": "*"
-  }
-}
